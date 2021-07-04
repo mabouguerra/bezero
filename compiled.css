@@ -593,6 +593,12 @@ video {
 .relative {
 	position: relative;
 }
+.inset-0 {
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
 .top-5 {
 	top: 1.25rem;
 }
@@ -728,6 +734,9 @@ video {
 }
 .h-6 {
 	height: 1.5rem;
+}
+.h-0 {
+	height: 0px;
 }
 .w-7\/12 {
 	width: 58.333333%;
@@ -885,6 +894,9 @@ video {
 }
 .self-center {
 	align-self: center;
+}
+.overflow-hidden {
+	overflow: hidden;
 }
 .overflow-x-hidden {
 	overflow-x: hidden;
