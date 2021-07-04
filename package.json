@@ -1,0 +1,25 @@
+{
+  "name": "captain.ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss styles.css -o compiled.css --watch\"  \"live-server \"",
+    "development": "cross-env NODE_ENV=development postcss styles.css -o compiled.css",
+    "production": "cross-env NODE_ENV=production postcss postcss styles.css -o compiled.css",
+    "start": "npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
